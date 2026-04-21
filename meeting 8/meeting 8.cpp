@@ -36,7 +36,7 @@ int main(){
 	cout << " NIM : " << ST.NIM << endl;
 	cout << " Name :" << ST.name << endl;
 	cout << " Address :" << ST.Address << endl;
-	cout << " Age : " << ST.Age;
+	cout << " Age : "  << ST.Age;
 
 
 
