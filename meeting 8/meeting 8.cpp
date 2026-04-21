@@ -29,7 +29,9 @@ int main(){
 	cin >> ST.Address;
 	cout << endl;
 
-
+	cout << " please enter your Age:";
+	cin >> ST.Age;
+	cout << endl;
 
 
 
