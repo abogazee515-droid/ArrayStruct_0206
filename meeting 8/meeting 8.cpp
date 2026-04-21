@@ -33,6 +33,8 @@ int main(){
 	cin >> ST.Age;
 	cout << endl;
 
+	cout << " NIM: " << ST.NIM << endl;
+	
 
 
 
