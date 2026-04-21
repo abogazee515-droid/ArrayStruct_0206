@@ -20,7 +20,9 @@ int main(){
 	cout << " please enter NIM ";
 	cin >> ST.NIM;
 
-
+	cout << endl;
+	cout << " please enter your name : ";
+	cin >> ST.name;
 
 
 
