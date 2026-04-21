@@ -17,6 +17,9 @@ int main(){
 
 	student ST;
 
+	cout << " please enter NIM ";
+	cin >> ST.NIM;
+
 
 
 
