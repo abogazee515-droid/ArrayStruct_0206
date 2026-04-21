@@ -1,14 +1,21 @@
 
 #include <iostream>
+#include<string>
 using namespace std;
 
 
+struct STAddress {
+
+	string city;
+	string vallage;
+
+};
 
 struct student {
 
 	string NIM;
 	string name;
-	string Address;
+	STAddress Address;
 	int Age;
 
 };
@@ -17,23 +24,32 @@ struct student {
 
 int main() {
 
-	student ST;
 
-	cout << " please enter NIM ";
-	cin >> ST.NIM;
 
-	cout << endl;
-	cout << " please enter your name : ";
-	cin >> ST.name;
 
-	cout << endl;
-	cout << " please enter your Address :";
-	cin >> ST.Address;
-	cout << endl;
 
-	cout << " please enter your Age:";
-	cin >> ST.Age;
-	cout << endl;
+	student  ST[3];
+
+	for (int i = 0; i < 3; i++) {
+
+		cout << " student number : " << i + 1 << endl;
+
+		cout << " please enter  your NIM :"; getline(cin, ST[i].NIM);
+		cout << endl;
+
+		cout << " please enter your name : "; getline(cin, ST[i].name);
+		cout << endl;
+
+		cout << " please enter your city : "; getline(cin, ST[i].Address.city);
+		cout << endl;
+
+		cout << " please enter your vallage : "; getline(cin, ST[i].Address.vallage);
+		cout << endl;
+
+		cout << "please enter your Age : "; cin >> ST[i].Age;
+		cout << endl;
+
+	}
 
 	cout << " NIM : " << ST.NIM << endl;
 	cout << " Name :" << ST.name << endl;
