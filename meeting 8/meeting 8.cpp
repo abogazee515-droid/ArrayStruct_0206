@@ -15,7 +15,7 @@ struct student {
 
 int main(){
 
-
+	student ST;
 
 
 
