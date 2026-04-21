@@ -24,6 +24,10 @@ int main(){
 	cout << " please enter your name : ";
 	cin >> ST.name;
 
+	cout << endl;
+	cout << " please enter your Address :";
+	cin >> ST.Address;
+	cout << endl;
 
 
 
