@@ -7,6 +7,7 @@ struct student {
 	string NIM;
 	string name;
 	string Address;
+	int Age;
 };
 
 
