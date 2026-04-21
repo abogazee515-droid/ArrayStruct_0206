@@ -8,14 +8,8 @@ struct student {
 	string name;
 	string Address;
 	int Age;
+
 };
-
-
-
-
-
-
-
 
 
 
