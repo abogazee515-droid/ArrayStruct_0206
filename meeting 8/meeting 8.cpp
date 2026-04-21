@@ -33,9 +33,10 @@ int main(){
 	cin >> ST.Age;
 	cout << endl;
 
-	cout << " NIM: " << ST.NIM << endl;
-	cout << "Name :" << ST.name << endl;
-	cout << "Address :" << ST.Address << endl;
+	cout << " NIM : " << ST.NIM << endl;
+	cout << " Name :" << ST.name << endl;
+	cout << " Address :" << ST.Address << endl;
+	cout << " Age : " << ST.Age;
 
 
 
