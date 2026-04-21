@@ -34,7 +34,7 @@ int main(){
 	cout << endl;
 
 	cout << " NIM: " << ST.NIM << endl;
-	
+	cout << "Name :" << ST.name << endl;
 
 
 
